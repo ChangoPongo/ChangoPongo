@@ -101,6 +101,7 @@
   height: 108%;
   z-index: 0;
   overflow: scroll;
+  overflow-x: hidden;
 }
 
 
@@ -804,6 +805,7 @@
   top: 10%;
   z-index: 12;
   overflow: scroll;
+  overflow-x: hidden;
 }
 
 #p1 {
