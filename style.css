@@ -100,7 +100,7 @@
   width: 95%;
   height: 108%;
   z-index: 0;
-  overflow: auto;
+  overflow: scroll;
 }
 
 .AboutMeText::-webkit-scrollbar {
@@ -807,7 +807,7 @@
   position: absolute;
   top: 10%;
   z-index: 12;
-  overflow: auto;
+  overflow: scroll;
 }
 .projectbackground::-webkit-scrollbar {
   display: none;
