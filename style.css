@@ -104,9 +104,6 @@
   overflow-x: hidden;
 }
 
-.AboutMeText::-webkit-scrollbar {
-  display: none;
-}
 
 
 .ContactMe {
@@ -811,9 +808,7 @@
   overflow: scroll;
   overflow-x: hidden;
 }
-.projectbackground::-webkit-scrollbar {
-  display: none;
-}
+
 
 #p1 {
   width: 100%;
