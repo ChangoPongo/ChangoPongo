@@ -1,0 +1,27 @@
+.desktop{
+    display: none;
+}
+
+.body {
+    background-color: #7bc8db;
+    margin: 0;
+    overflow: auto;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+
+.mobilebackground{
+    image-rendering: pixelated;
+    top: 8%;
+    position: absolute;
+    width: 100%;
+}
+
+
+.mobilebackground img{
+    position: absolute;
+    width: 100%;
+}
+
