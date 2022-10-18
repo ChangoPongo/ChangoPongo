@@ -1,0 +1,148 @@
+.desktop{
+    display: none;
+}
+.mobile{
+    display: block;
+  }
+
+.body {
+    background-color: #7bc8db;
+    margin: 0;
+    overflow: auto;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.mobilebackground{
+    image-rendering: pixelated;
+    top: 8%;
+    position: absolute;
+    width: 100%;
+}
+
+
+.mobilebackground img{
+    position: absolute;
+    width: 100%;
+}
+
+#button1 {
+    width: 45%;
+    height: auto;
+    top: 21vw;
+    left: 5vw;
+    position: absolute;
+    image-rendering: pixelated;
+  }
+  
+  #button2 {
+    width: 45%;
+    height: auto;
+    top: 95vw;
+    left: 10vw;
+    position: absolute;
+    image-rendering: pixelated;
+  }
+  
+  #button3 {
+    width: 29%;
+    height: auto;
+    top: 69vw;
+    left: 61vw;
+    position: absolute;
+    image-rendering: pixelated;
+  }
+  
+  #button4 {
+    width: 52%;
+    height: auto;
+    top: 134vw;
+    left: 39vw;
+    position: absolute;
+    image-rendering: pixelated;
+  }
+
+
+  .mContactMe {
+    display: none;
+    min-width: 59vw;
+    max-width: 59vw;
+    position: absolute;
+    top: 59vh;
+    left: 0vh;
+    z-index: 10;
+    image-rendering: pixelated;
+  }
+  .ContactMeContainter {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 11;
+  }
+  .metwo {
+    position: relative;
+    width: 49%;
+    height: auto;
+    z-index: 1;
+  }
+  .metwo:active {
+    cursor: grabbing;
+  }
+  .me2 {
+    width: 100%;
+  }
+  .ContactMeWindow {
+    left: 14%;
+    top: -106%;
+    position: absolute;
+    width: 122%;
+    z-index: 0;
+    height: auto;
+  }
+   .ContactMeWindow img {
+    width: 123%;
+  }
+  
+  .ContactButton {
+    position: absolute;
+    top: -97%;
+    width: 10%;
+    left: 138%;
+  }
+  .ContactButton:active {
+    top: -98%;
+    left: 139%;
+  }
+  
+  .ContactMeText {
+    left: 48%;
+    top: -14%;
+    position: absolute;
+    width: 71%;
+    height: 29%;
+    z-index: 0;
+  }
+  .social1 img{
+    width: 126%;
+  }
+  .social2 img{
+    width: 143%;
+}
+  
+  .social3 img{
+    width: 130%;
+  }
+
+  .social1 {
+    position: absolute;
+  }
+  .social2 {
+    position: absolute;
+    top: 44%;
+  }
+  .social3 {
+    position: absolute;
+    top: 86%;
+}
+  
