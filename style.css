@@ -34,39 +34,38 @@
   image-rendering: pixelated;
 }
 
-
 #abm_page {
   display: none;
   min-width: 22vw;
   max-width: 22vw;
-  
+
   position: absolute;
   top: 15vh;
   left: 39vh;
   z-index: 19;
   image-rendering: pixelated;
 }
-.AboutMeContainer{
+.AboutMeContainer {
   width: 100%;
   height: auto;
   position: relative;
   z-index: 11;
 }
-.me{
+.me {
   position: relative;
   width: 100%;
   height: auto;
-  z-index:1 ;
+  z-index: 1;
   cursor: grab;
 }
-.me:active{
+.me:active {
   cursor: grabbing;
 }
 
-.me1{
+.me1 {
   width: 80%;
 }
-.AboutMeWindow{
+.AboutMeWindow {
   left: -90%;
   top: -39%;
   position: absolute;
@@ -74,10 +73,10 @@
   z-index: 0;
   height: auto;
 }
-.AboutMeWindow img{
+.AboutMeWindow img {
   width: 80%;
 }
-.AboutMeButton{
+.AboutMeButton {
   left: 8%;
   top: -32%;
   position: absolute;
@@ -85,23 +84,24 @@
   z-index: 1;
   height: auto;
 }
-.AboutMeButton:active{
+.AboutMeButton:active {
   left: 9%;
-  top:-31.5%
+  top: -31.5%;
 }
 
-.AboutMeButton img{
+.AboutMeButton img {
   width: 100%;
 }
-.AboutMeText{
+.AboutMeText {
   left: -81%;
   top: -18%;
   position: absolute;
   width: 95%;
   height: 108%;
   z-index: 0;
-  overflow: scroll;
-  overflow-x: hidden;
+  overflow: auto;
+  overflow-x: none;
+}
 
 
 .ContactMe {
@@ -120,68 +120,64 @@
   position: relative;
   z-index: 11;
 }
-.metwo{
+.metwo {
   position: relative;
   width: 40%;
   height: auto;
-  z-index:1 ;
+  z-index: 1;
   cursor: grab;
 }
-.metwo:active{
+.metwo:active {
   cursor: grabbing;
 }
-.me2{
+.me2 {
   width: 100%;
 }
-.ContactMeWindow{
+.ContactMeWindow {
   left: 39%;
   top: -18%;
   position: absolute;
   width: 100%;
   z-index: 0;
   height: auto;
-
 }
-.ContactMeWindow img{
+.ContactMeWindow img {
   width: 100%;
 }
 
-.ContactButton{
+.ContactButton {
   position: absolute;
   top: -12%;
   width: 6%;
   left: 124%;
 }
-.ContactButton:active{
+.ContactButton:active {
   top: -11%;
   left: 124.3%;
-
 }
 
-.ContactMeText{
-   
+.ContactMeText {
   left: 55%;
   top: 55%;
   position: absolute;
   width: 71%;
   height: 29%;
   z-index: 0;
-  
 }
 
-.social1{
+.social1 {
   position: absolute;
   left: 0%;
   top: 3%;
   width: 42%;
   height: auto;
 }
-.social1 img{
+.social1 img {
   width: 100%;
   height: auto;
 }
 
-.social2{
+.social2 {
   position: absolute;
   top: 39%;
   width: 33%;
@@ -189,34 +185,21 @@
   height: auto;
 }
 
-.social2 img{
+.social2 img {
   width: 100%;
   height: auto;
 }
-.social3{
-  
+.social3 {
   position: absolute;
   top: 72%;
   left: -1%;
   width: 94%;
   height: auto;
 }
-.social3 img{
+.social3 img {
   width: 100%;
   height: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 #constanttorn_page {
   display: none;
@@ -562,7 +545,6 @@
   left: 93.1%;
 }
 
-
 #HopesFears_page {
   display: none;
   min-width: 38vw;
@@ -656,7 +638,6 @@
   left: 93.1%;
 }
 
-
 #StayHere_page {
   display: none;
   min-width: 38vw;
@@ -683,7 +664,7 @@
   z-index: 98;
 }
 
-.Inside{
+.Inside {
   width: 100%;
   height: auto;
   image-rendering: crisp-edges;
@@ -713,7 +694,7 @@
   height: auto;
   image-rendering: crisp-edges;
 }
-.fullOutside img  {
+.fullOutside img {
   width: 100%;
   height: auto;
   image-rendering: crisp-edges;
@@ -751,17 +732,6 @@
   top: -0.9%;
   left: 93.1%;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .projectWindow {
   display: none;
@@ -803,7 +773,7 @@
   position: absolute;
   top: 10%;
   z-index: 12;
-  overflow: scroll;
+  overflow: auto;
   overflow-x: hidden;
 }
 
@@ -1022,8 +992,6 @@
   image-rendering: pixelated;
 }
 
-
-
 #cloud {
   pointer-events: none;
   max-width: 150%;
@@ -1032,7 +1000,7 @@
   bottom: -5%;
   position: absolute;
   position: absolute;
-  animation: move 25s linear  infinite;
+  animation: move 25s linear infinite;
   image-rendering: pixelated;
 }
 
@@ -1045,11 +1013,9 @@
   }
 }
 
-#cloud img{
+#cloud img {
   width: 100%;
 }
-
-
 
 #cloud2 {
   pointer-events: none;
@@ -1060,10 +1026,9 @@
   top: -5%;
   position: absolute;
   position: absolute;
-  animation: move1 25s linear  infinite;
+  animation: move1 25s linear infinite;
   image-rendering: pixelated;
 }
-
 
 @-webkit-keyframes move1 {
   from {
@@ -1074,15 +1039,9 @@
   }
 }
 
-#cloud2 img{
+#cloud2 img {
   width: 100%;
 }
-
-
-
-
-
-
 
 .body {
   background-color: #7bc8db;
@@ -1093,34 +1052,52 @@
   user-select: none;
 }
 
-@font-face{
-  font-family:'VT323';
+@font-face {
+  font-family: "VT323";
   src: url("./assets/Font/VT323-Regular.ttf");
   font-style: normal;
   font-weight: 100;
 }
-.Text1{
-  font-family: 'VT323';
+.Text1 {
+  font-family: "VT323";
   font-weight: 100;
   font-size: 155%;
 }
-.Text2{
-  font-family: 'VT323';
+.Text2 {
+  font-family: "VT323";
   font-weight: 100;
   font-size: 155%;
 }
-.Text3{
-  font-family: 'VT323';
+.Text3 {
+  font-family: "VT323";
   font-weight: 100;
   font-size: 155%;
 }
-.Text4{
-  font-family: 'VT323';
+.Text4 {
+  font-family: "VT323";
   font-weight: 100;
   font-size: 155%;
-  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  background: linear-gradient(
+    to right,
+    #ef5350,
+    #f48fb1,
+    #7e57c2,
+    #2196f3,
+    #26c6da,
+    #43a047,
+    #eeff41,
+    #f9a825,
+    #ff5722
+  );
   -webkit-background-clip: text;
-    background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
-  
+}
+
+
+.mobile{
+  display: none;
+}
+.desktop{
+  display: block
 }

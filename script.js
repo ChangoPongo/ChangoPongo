@@ -46,7 +46,7 @@ function NTK() {
 }
 function IWTBE() {
   var x = document.getElementById("IWTBE_page");
-  var y = document.getElementById("IWTBEvideo")
+  var y = document.getElementById("IWTBEvideo");
   if (x.style.display === "block") {
     x.style.display = "none";
     y.style.display = "none";
@@ -99,13 +99,6 @@ function ContactMe() {
   }
 }
 
-
-
-
-
-
-
-
 //resizes back and buttons - currently not connected
 function resize() {
   var x = document.getElementById("bg");
@@ -131,7 +124,6 @@ function resize() {
 
     b4.style.top = "20vw";
     b4.style.left = "75vw";
-
   } else {
     b3.style.width = "7%";
     b1.style.width = "10%";
@@ -198,8 +190,6 @@ function dragElement(elmnt) {
   }
 }
 
-
-
 $(".me1")
   .mousedown(function () {
     $(this).attr("src", $(this).data("click"));
@@ -211,7 +201,7 @@ $(".me1")
     $(this).attr("src", $(this).data("src"));
   });
 
-  $(".me2")
+$(".me2")
   .mousedown(function () {
     $(this).attr("src", $(this).data("click"));
   })
@@ -222,110 +212,88 @@ $(".me1")
     $(this).attr("src", $(this).data("src"));
   });
 
+// Makes windows got to front
 
-
-
-
-
-
-  // Makes windows got to front
-
-$(".popup").click(function(){
-  $(this).css('z-index', 20);
+$(".popup").click(function () {
+  $(this).css("z-index", 20);
   //reset other sibling div's z-index to default value (i.e. 1)
-  $(this).siblings(".popup").css('z-index', 19);
+  $(this).siblings(".popup").css("z-index", 19);
 });
 
- // hides window when pressing little me
+// hides window when pressing little me
 
-$(document).ready(function() {
-	$('.me1').on('mousedown', function(){
-		$('.AboutMeWindow ').toggle();
-	});
+$(document).ready(function () {
+  $(".me1").on("mousedown", function () {
+    $(".AboutMeWindow ").toggle();
+  });
 });
-$(document).ready(function() {
-	$('.me1').on('mouseup', function(){
-		$('.AboutMeWindow').toggle();
-	});
+$(document).ready(function () {
+  $(".me1").on("mouseup", function () {
+    $(".AboutMeWindow").toggle();
+  });
 });
-$(document).ready(function() {
-	$('.me1').on('mousedown', function(){
-		$('.AboutMeButton').toggle();
-	});
+$(document).ready(function () {
+  $(".me1").on("mousedown", function () {
+    $(".AboutMeButton").toggle();
+  });
 });
-$(document).ready(function() {
-	$('.me1').on('mouseup', function(){
-		$('.AboutMeButton').toggle();
-	});
+$(document).ready(function () {
+  $(".me1").on("mouseup", function () {
+    $(".AboutMeButton").toggle();
+  });
 });
-$(document).ready(function() {
-	$('.me1').on('mousedown', function(){
-		$('.AboutMeText').toggle();
-	});
+$(document).ready(function () {
+  $(".me1").on("mousedown", function () {
+    $(".AboutMeText").toggle();
+  });
 });
-$(document).ready(function() {
-	$('.me1').on('mouseup', function(){
-		$('.AboutMeText').toggle();
-	});
+$(document).ready(function () {
+  $(".me1").on("mouseup", function () {
+    $(".AboutMeText").toggle();
+  });
 });
 
-
-
-
-
-
-function sendEmail() 
-{
-    window.location = "mailto:hello@changopongo.com";
+function sendEmail() {
+  window.location = "mailto:hello@changopongo.com";
 }
 
+// hides window when pressing little me
 
-
-
-
- // hides window when pressing little me
-
- $(document).ready(function() {
-	$('.me2').on('mousedown', function(){
-		$('.ContactMeWindow ').toggle();
-	});
+$(document).ready(function () {
+  $(".me2").on("mousedown", function () {
+    $(".ContactMeWindow ").toggle();
+  });
 });
-$(document).ready(function() {
-	$('.me2').on('mouseup', function(){
-		$('.ContactMeWindow').toggle();
-	});
+$(document).ready(function () {
+  $(".me2").on("mouseup", function () {
+    $(".ContactMeWindow").toggle();
+  });
 });
-$(document).ready(function() {
-	$('.me2').on('mousedown', function(){
-		$('.ContactButton').toggle();
-	});
+$(document).ready(function () {
+  $(".me2").on("mousedown", function () {
+    $(".ContactButton").toggle();
+  });
 });
-$(document).ready(function() {
-	$('.me2').on('mouseup', function(){
-		$('.ContactMeButton').toggle();
-	});
+$(document).ready(function () {
+  $(".me2").on("mouseup", function () {
+    $(".ContactMeButton").toggle();
+  });
 });
-$(document).ready(function() {
-	$('.me2').on('mousedown', function(){
-		$('.ContactMeText').toggle();
-	});
+$(document).ready(function () {
+  $(".me2").on("mousedown", function () {
+    $(".ContactMeText").toggle();
+  });
 });
-$(document).ready(function() {
-	$('.me2').on('mouseup', function(){
-		$('.ContactMeText').toggle();
-	});
+$(document).ready(function () {
+  $(".me2").on("mouseup", function () {
+    $(".ContactMeText").toggle();
+  });
 });
-$(document).ready(function() {
-	$('.me2').on('mouseup', function(){
-		$('.ContactButton').toggle();
-	});
+$(document).ready(function () {
+  $(".me2").on("mouseup", function () {
+    $(".ContactButton").toggle();
+  });
 });
-
-
-
-
-
-
 
 //cant be dragged out
 $("#bg").attr("draggable", false);
@@ -337,3 +305,17 @@ $("#cloud").attr("draggable", false);
 document.getElementById(".#cloud").setAttribute("draggable", false);
 $("#cloud2").attr("draggable", false);
 document.getElementById(".#cloud2").setAttribute("draggable", false);
+
+
+
+
+
+
+function mContactMe() {
+  var x = document.getElementById("ContactMe_mpage");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
