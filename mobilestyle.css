@@ -203,7 +203,7 @@
 
 .AboutMeButton:active {
   left: 47%;
-  top: 91%;
+  top: -90%;
 }
 
 .AboutMeButton img {
