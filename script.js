@@ -319,3 +319,15 @@ function mContactMe() {
     x.style.display = "block";
   }
 }
+
+
+
+function mAboutMe() {
+  var x = document.getElementById("abm_mpage");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
