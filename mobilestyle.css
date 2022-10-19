@@ -640,19 +640,19 @@
 }
 #IWTBE_mpage {
   display: none;
-  min-width: 40vw;
-  max-width: 40vw;
-  max-height: 90vh;
+  min-width: 91vw;
+  max-width: 39vw;
+  min-height: 14vh;
   position: absolute;
-  top: 45vh;
-  left: 115vh;
-  z-index: 19;
+  top: 26vh;
+  left: 2.6vh;
+  z-index: 20;
   image-rendering: pixelated;
 }
 .IWTBEcontainter {
   position: relative;
   width: auto;
-  height: 50vh;
+  height: 29vh;
   z-index: 11;
 }
 .IWTBEvideo {
@@ -669,17 +669,17 @@
   z-index: 10;
 }
 .IWTBEbutton {
-  width: 5%;
+  width: 6%;
   height: auto;
   image-rendering: pixelated;
-  top: 0.9%;
-  left: 94.5%;
+  top: 1.9%;
+  left: 92.5%;
   position: absolute;
   z-index: 99;
 }
 .IWTBEtornbutton:active {
-  top: -1%;
-  left: 92.1%;
+  top: 2%;
+  left: 92.6%;
 }
 .IWTBEbottomborder {
   width: 100%;
@@ -693,14 +693,14 @@
 
 #Starsnot_mpage {
   display: none;
-  min-width: 38vw;
-  max-width: 38vw;
-  max-height: 74vh;
-  position: absolute;
-  top: 20vh;
-  left: 20vh;
-  z-index: 19;
-  image-rendering: pixelated;
+  min-width: 98vw;
+    max-width: 101vw;
+    max-height: 74vh;
+    position: absolute;
+    top: 20vh;
+    left: 0.5vh;
+    z-index: 20;
+    image-rendering: pixelated;
 }
 
 .Starsnotcontainter {
@@ -746,28 +746,27 @@
   position: absolute;
 }
 .Starsbutton {
-  width: 4.5%;
+  width: 6.5%;
   height: auto;
   image-rendering: pixelated;
-  top: -0.1%;
-  left: 94%;
+  top: -1.1%;
+  left: 93%;
   position: absolute;
   z-index: 99;
 }
 .Starsbutton:active {
-  top: 0%;
-  left: 94.1%;
+  top: 1%;
+  left: 93.1%;
 }
 
 #FarPlains_mpage {
   display: none;
   min-width: 38vw;
-  max-width: 38vw;
-  max-height: 74vh;
+  max-width: 98vw;
   position: absolute;
-  top: 4vh;
-  left: 50vh;
-  z-index: 19;
+  top: 11vh;
+  left: 1vw;
+  z-index: 22;
   image-rendering: pixelated;
 }
 
@@ -781,7 +780,7 @@
   width: 100%;
   image-rendering: pixelated;
   position: absolute;
-  bottom: 0%;
+  bottom: -1%;
   z-index: 98;
 }
 
@@ -836,15 +835,15 @@
   padding: 0%;
 }
 .FarPlainsback {
-  background: peachpuff;
   width: 100%;
-  height: 90vh;
+  height: 64vh;
   position: relative;
   top: 9%;
   z-index: 12;
   overflow: scroll;
   overflow-x: hidden;
 }
+
 
 .FarPlainstopborder {
   width: 100%;
@@ -856,11 +855,11 @@
   position: absolute;
 }
 .FarPlainsbutton {
-  width: 4.5%;
+  width: 5.5%;
   height: auto;
   image-rendering: pixelated;
   top: -1.1%;
-  left: 94%;
+  left: 93%;
   position: absolute;
   z-index: 99;
 }
@@ -872,12 +871,11 @@
 #HopesFears_mpage {
   display: none;
   min-width: 38vw;
-  max-width: 38vw;
-  max-height: 74vh;
+  max-width: 98vw;
   position: absolute;
-  top: 4vh;
-  left: 100vh;
-  z-index: 19;
+  top: 11vh;
+  left: 1vw;
+  z-index: 22;
   image-rendering: pixelated;
 }
 
@@ -931,7 +929,7 @@
 
 .HopesFearsback {
   width: 100%;
-  height: 90vh;
+  height: 64vh;
   position: relative;
   top: 9%;
   z-index: 12;
@@ -949,7 +947,7 @@
   position: absolute;
 }
 .HopesFearsbutton {
-  width: 4.5%;
+  width: 5.5%;
   height: auto;
   image-rendering: pixelated;
   top: -1.1%;
@@ -965,12 +963,11 @@
 #StayHere_mpage {
   display: none;
   min-width: 38vw;
-  max-width: 38vw;
-  max-height: 74vh;
+  max-width: 98vw;
   position: absolute;
-  top: 4vh;
-  left: 120vh;
-  z-index: 19;
+  top: 11vh;
+  left: 1vw;
+  z-index: 22;
   image-rendering: pixelated;
 }
 
@@ -1026,7 +1023,7 @@
 
 .StayHereback {
   width: 100%;
-  height: 90vh;
+  height: 64vh;
   position: relative;
   top: 9%;
   z-index: 12;
@@ -1044,7 +1041,7 @@
   position: absolute;
 }
 .StayHerebutton {
-  width: 4.5%;
+  width: 5.5%;
   height: auto;
   image-rendering: pixelated;
   top: -1.1%;
