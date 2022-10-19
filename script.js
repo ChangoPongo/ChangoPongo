@@ -342,3 +342,73 @@ function mProject() {
 
 
 
+function mtorn() {
+  var x = document.getElementById("constanttorn_mpage");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function mNTK() {
+  var x = document.getElementById("NTK_mpage");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function mIWTBE() {
+  var x = document.getElementById("IWTBE_mpage");
+  var y = document.getElementById("IWTBEmvideo");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+    y.style.display = "none";
+  } else {
+    x.style.display = "block";
+    y.style.display = "block";
+  }
+}
+
+function mStarsnot() {
+  var x = document.getElementById("Starsnot_mpage");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function mFarPlains() {
+  var x = document.getElementById("FarPlains_mpage");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function mHopeFear() {
+  var x = document.getElementById("HopesFears_mpage");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function mStayHere() {
+  var x = document.getElementById("StayHere_mpage");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function mContactMe() {
+  var x = document.getElementById("ContactMe_mpage");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
