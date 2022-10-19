@@ -527,13 +527,13 @@
 
 #constanttorn_mpage {
   min-width: 95vw;
-    max-width: 30vw;
-    max-height: 50vh;
-    position: absolute;
-    top: 11.5vh;
-    left: 1vh;
-    z-index: 20;
-    image-rendering: pixelated;
+   max-width: 30vw;
+   max-height: 50vh;
+  position: absolute;
+  top: 11.5vh;
+  left: 1.2vh;
+  z-index: 20;
+  image-rendering: pixelated;
    display: none;
 }
 
@@ -585,15 +585,15 @@
 }
 
 #NTK_mpage {
-  display: none;
-  min-width: 30vw;
+  min-width: 95vw;
   max-width: 30vw;
   max-height: 50vh;
-  position: absolute;
-  top: 10vh;
-  left: 15vh;
-  z-index: 19;
-  image-rendering: pixelated;
+ position: absolute;
+ top: 11.5vh;
+ left: 1.2vh;
+ z-index: 20;
+ image-rendering: pixelated;
+  display: none;
 }
 
 .NTKcontainter {
