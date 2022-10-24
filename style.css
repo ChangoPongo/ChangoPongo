@@ -271,18 +271,15 @@
   z-index: 19;
   image-rendering: pixelated;
 }
-
 .NTKcontainter {
   width: 100%;
   height: auto;
   position: relative;
   z-index: 11;
 }
-
 .NTKfull {
   width: 100%;
   height: auto;
-
   image-rendering: crisp-edges;
 }
 .NTKtopborder {
