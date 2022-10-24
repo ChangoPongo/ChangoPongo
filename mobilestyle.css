@@ -271,14 +271,14 @@
 
 
 .projectWindow {
-  display: none;
   max-width: 33vw;
-  min-width: 96vw;
+  min-width: 88vw;
   position: absolute;
-  top: 64vw;
-  left: 2vw;
+  top: 24vw;
+  left: 6vw;
   z-index: 10;
   image-rendering: pixelated;
+  display: none;
 }
 .projectborder {
   width: 100%;
@@ -289,21 +289,21 @@
 
 .closebutton {
   position: absolute;
-  width: 6%;
+  width: 8%;
   height: auto;
-  top: 76.3%;
-  left: 54%;
+  top: 6.3%;
+  left: 82%;
   right: 30%;
   z-index: 999;
 }
 
 .projectbackground {
-  width: 64.4%;
-  height: 52.7%;
+  width: 86.4%;
+  height: 80.7%;
   position: absolute;
-  top: 19%;
-  z-index: 12;
-  left: -4.99%;
+  top: 14%;
+  z-index: 14;
+  left: 6.01%;
   overflow: auto;
   overflow-x: hidden;
 }
@@ -321,11 +321,10 @@
 
 
 #p1 {
-  width: 100%;
+  width: 124%;
   height: auto;
   position: absolute;
-  top: 5%;
-  left: 13%;
+  left: -5%;
   z-index: 90;
 }
 .frameOne {
@@ -344,22 +343,13 @@
   left: 6%;
   z-index: 89;
 }
-#p1:active {
-  top: 5.5%;
-  left: 13.5%;
-}
-#p1:hover {
-  width: 98%;
-}
-
 
 #p2 {
-  width: 100%;
-    height: auto;
-    position: absolute;
-    top: 5%;
-    left: 53%;
-    z-index: 90;
+  width: 124%;
+  height: auto;
+  position: absolute;
+  left: 44%;
+  z-index: 90;
 }
 .frameTwo {
   width: 38%;
@@ -377,20 +367,13 @@
   left: 6%;
   z-index: 89;
 }
-#p2:active {
-  top: 5.5%;
-  left: 53.5%;
-}
-#p2:hover {
-  width: 98% ;
-}
 
 #p3 {
-  width: 100%;
+  width: 124%;
   height: auto;
   position: absolute;
-  top: 79%;
-  left: 53%;
+  top: 45%;
+  left: 44%;
   z-index: 90;
 }
 .frameThree {
@@ -409,20 +392,12 @@
   left: 6%;
   z-index: 89;
 }
-#p3:active {
-  top: 79.5%;
-  left: 53.5%;
-}
-#p3:hover {
-  width: 98% ;
-}
-
 #p4 {
-  width: 100%;
+  width: 123%;
   height: auto;
   position: absolute;
-  top: 79%;
-  left: -31%;
+  top: 45%;
+  left: -59%;
   z-index: 90;
 }
 .frameFour {
@@ -441,19 +416,13 @@
   left: 50%;
   z-index: 89;
 }
-#p4:active {
-  top: 79.5%;
-  left: -30.5%;
-}
-#p4:hover {
-  width: 99% ;
-}
+
 #p5 {
-  width: 100%;
+  width: 124%;
   height: auto;
   position: absolute;
-  top: 134%;
-  left: 13%;
+  top: 78%;
+  left: -5%;
   z-index: 90;
 }
 .frameFive {
@@ -472,19 +441,13 @@
   left: 6%;
   z-index: 89;
 }
-#p5:active {
-  top: 134.5%;
-  left: 13.5%;
-}
-#p5:hover {
-  width: 98% ;
-}
+
 #p6 {
-  width: 100%;
+  width: 124%;
   height: auto;
   position: absolute;
-  top: 134%;
-  left: 53%;
+  top: 78%;
+  left: 44%;
   z-index: 90;
 }
 .frameSix {
@@ -503,19 +466,13 @@
   left: 6%;
   z-index: 89;
 }
-#p6:active {
-  top: 134.5%;
-  left: 53.5%;
-}
-#p6:hover {
-  width: 98% ;
-}
+
 #p7 {
-  width: 100%;
+  width: 124%;
   height: auto;
   position: absolute;
-  top: 209%;
-  left: 13%;
+  top: 123%;
+  left: -5%;
   z-index: 90;
 }
 .frameSeven {
@@ -534,13 +491,7 @@
   left: 6%;
   z-index: 89;
 }
-#p7:active {
-  top: 209%;
-  left: 13%;
-}
-#p7:hover {
-  width: 98% ;
-}
+
 
 
 .closebutton img {
@@ -548,10 +499,7 @@
   height: auto;
   z-index: 999;
 }
-.closebutton:active {
-  top: 76.5%;
-  left: 54.2%;
-}
+
 
 
 
