@@ -298,13 +298,13 @@
   height: auto;
   image-rendering: pixelated;
   top: -1.1%;
-  left: 92%;
+  left: 92.5%;
   position: absolute;
   z-index: 99;
 }
 .NTKbutton:active {
-  top: -1%;
-  left: 92.1%;
+  top: -1.2%;
+  left: 92.6%;
 }
 .NTKbottomborder {
   width: 100%;
@@ -348,14 +348,14 @@
   width: 5%;
   height: auto;
   image-rendering: pixelated;
-  top: 0.9%;
-  left: 94.5%;
+  top: 2.9%;
+  left: 93.5%;
   position: absolute;
   z-index: 99;
 }
-.IWTBEtornbutton:active {
-  top: -1%;
-  left: 92.1%;
+.IWTBEbutton:active {
+  top: 3%;
+  left: 93.6%;
 }
 .IWTBEbottomborder {
   width: 100%;
@@ -454,7 +454,7 @@
   z-index: 11;
 }
 .FarPlainsbottomborder {
-  width: 100%;
+  width: 98.6%;
   image-rendering: pixelated;
   position: absolute;
   bottom: 0%;
@@ -512,7 +512,7 @@
   padding: 0%;
 }
 .FarPlainsback {
-  background: peachpuff;
+
   width: 100%;
   height: 90vh;
   position: relative;
@@ -521,9 +521,17 @@
   overflow: scroll;
   overflow-x: hidden;
 }
+.FarPlainsback::-webkit-scrollbar {
+  width: 1vh;
+}
+
+.FarPlainsback::-webkit-scrollbar-thumb {
+  background-color: #1b1b1b;
+  border-radius: 1vh;
+}
 
 .FarPlainstopborder {
-  width: 100%;
+  width: 98.6%;
   height: auto;
   image-rendering: pixelated;
   top: -2%;
@@ -564,7 +572,7 @@
   z-index: 11;
 }
 .HopesFearsbottomborder {
-  width: 100%;
+  width: 98.6%;
   image-rendering: pixelated;
   position: absolute;
   bottom: 0%;
@@ -614,9 +622,17 @@
   overflow: scroll;
   overflow-x: hidden;
 }
+.HopesFearsback::-webkit-scrollbar {
+  width: 1vh;
+}
+
+.HopesFearsback::-webkit-scrollbar-thumb {
+  background-color: #d4c2fd;
+  border-radius: 1vh;
+}
 
 .HopesFearstopborder {
-  width: 100%;
+  width: 98.6%;
   height: auto;
   image-rendering: pixelated;
   top: -2%;
@@ -657,7 +673,7 @@
   z-index: 11;
 }
 .StayHerebottomborder {
-  width: 100%;
+  width: 98.6%;
   image-rendering: pixelated;
   position: absolute;
   bottom: 0%;
@@ -709,9 +725,17 @@
   overflow: scroll;
   overflow-x: hidden;
 }
+.StayHereback::-webkit-scrollbar {
+  width: 1vh;
+}
+
+.StayHereback::-webkit-scrollbar-thumb {
+  background-color: #131212;
+  border-radius: 1vh;
+}
 
 .StayHeretopborder {
-  width: 100%;
+  width: 98.6%;
   height: auto;
   image-rendering: pixelated;
   top: -2%;
@@ -735,11 +759,11 @@
 
 .projectWindow {
   display: none;
-  max-width: 25vw;
-  max-height: 99vh;
+  max-width: 27vw;
+  min-width: 27vw;
   position: absolute;
-  top: 10vw;
-  left: 70vw;
+  top: 27vw;
+  left: 66vw;
   z-index: 10;
   image-rendering: pixelated;
 }
@@ -749,33 +773,38 @@
   position: relative;
   z-index: 11;
 }
+
 .closebutton {
   position: absolute;
-  width: 8%;
+  width: 6%;
   height: auto;
-  top: 1.3%;
-  left: 91%;
+  top: 76.3%;
+  left: 54%;
   right: 30%;
   z-index: 999;
 }
-.peachspread {
-  background: peachpuff;
-  width: 100%;
-  height: 86%;
-  position: absolute;
-  top: 9%;
-  z-index: 1;
-}
+
 .projectbackground {
-  background: peachpuff;
-  width: 100%;
-  height: 84.67%;
+  width: 64.4%;
+  height: 52.7%;
   position: absolute;
-  top: 10%;
+  top: 19%;
   z-index: 12;
+  left: -4.99%;
   overflow: auto;
   overflow-x: hidden;
 }
+
+.projectbackground::-webkit-scrollbar {
+  width: 1vh;
+}
+
+.projectbackground::-webkit-scrollbar-thumb {
+  background-color: #B86F50;
+  border-radius: 1vh;
+}
+
+
 
 
 #p1 {
@@ -783,7 +812,7 @@
   height: auto;
   position: absolute;
   top: 5%;
-  left: 0%;
+  left: 13%;
   z-index: 90;
 }
 .frameOne {
@@ -804,15 +833,20 @@
 }
 #p1:active {
   top: 5.5%;
-  left: 0.5%;
+  left: 13.5%;
 }
+#p1:hover {
+  width: 98%;
+}
+
+
 #p2 {
   width: 100%;
-  height: auto;
-  position: absolute;
-  top: 28%;
-  left: 44%;
-  z-index: 90;
+    height: auto;
+    position: absolute;
+    top: 5%;
+    left: 53%;
+    z-index: 90;
 }
 .frameTwo {
   width: 38%;
@@ -831,15 +865,19 @@
   z-index: 89;
 }
 #p2:active {
-  top: 28.5%;
-  left: 44.5%;
+  top: 5.5%;
+  left: 53.5%;
 }
+#p2:hover {
+  width: 98% ;
+}
+
 #p3 {
   width: 100%;
   height: auto;
   position: absolute;
-  top: 60%;
-  left: 0%;
+  top: 79%;
+  left: 53%;
   z-index: 90;
 }
 .frameThree {
@@ -859,15 +897,19 @@
   z-index: 89;
 }
 #p3:active {
-  top: 60.5%;
-  left: 0.5%;
+  top: 79.5%;
+  left: 53.5%;
 }
+#p3:hover {
+  width: 98% ;
+}
+
 #p4 {
   width: 100%;
   height: auto;
   position: absolute;
-  top: 84%;
-  left: 0%;
+  top: 79%;
+  left: -31%;
   z-index: 90;
 }
 .frameFour {
@@ -887,15 +929,18 @@
   z-index: 89;
 }
 #p4:active {
-  top: 84.5%;
-  left: 0.5%;
+  top: 79.5%;
+  left: -30.5%;
+}
+#p4:hover {
+  width: 99% ;
 }
 #p5 {
   width: 100%;
   height: auto;
   position: absolute;
-  top: 104%;
-  left: 0%;
+  top: 134%;
+  left: 13%;
   z-index: 90;
 }
 .frameFive {
@@ -915,15 +960,18 @@
   z-index: 89;
 }
 #p5:active {
-  top: 104.5%;
-  left: 0.5%;
+  top: 134.5%;
+  left: 13.5%;
+}
+#p5:hover {
+  width: 98% ;
 }
 #p6 {
   width: 100%;
   height: auto;
   position: absolute;
-  top: 130%;
-  left: 44%;
+  top: 134%;
+  left: 53%;
   z-index: 90;
 }
 .frameSix {
@@ -943,15 +991,18 @@
   z-index: 89;
 }
 #p6:active {
-  top: 130.5%;
-  left: 44.5%;
+  top: 134.5%;
+  left: 53.5%;
+}
+#p6:hover {
+  width: 98% ;
 }
 #p7 {
   width: 100%;
   height: auto;
   position: absolute;
-  top: 160%;
-  left: 0%;
+  top: 209%;
+  left: 13%;
   z-index: 90;
 }
 .frameSeven {
@@ -971,9 +1022,13 @@
   z-index: 89;
 }
 #p7:active {
-  top: 160.5%;
-  left: 0.5%;
+  top: 209%;
+  left: 13%;
 }
+#p7:hover {
+  width: 98% ;
+}
+
 
 .closebutton img {
   width: 95%;
@@ -981,8 +1036,8 @@
   z-index: 999;
 }
 .closebutton:active {
-  top: 1.5%;
-  right: 25%;
+  top: 76.5%;
+  left: 54.2%;
 }
 
 .island img {
