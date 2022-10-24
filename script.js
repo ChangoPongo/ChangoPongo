@@ -412,3 +412,23 @@ function mContactMe() {
     x.style.display = "block";
   }
 }
+
+
+function hidewindow1() {
+  var x = document.getElementById("ContactMe_mpage");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  }
+}
+function hidewindow2() {
+  var x = document.getElementById("project_mpage");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  }
+}
+function hidewindow3() {
+  var x = document.getElementById("abm_mpage");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  }
+}

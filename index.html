@@ -267,20 +267,20 @@ i do not understand anything-->
     </div>
 </div>
 <!--mobile oh god help me--> 
-<div class="mobile">
-    <div class="mobilebackground">
+<div class="mobile"  >
+    <div class="mobilebackground" onclick="hidewindow1(),hidewindow2(),hidewindow3()">
         <img src="./assets/backgroundm.gif">
     </div>
 
     <div> 
         <img class="mbutton about_me" src ="./assets/button gifs/about_me_button.gif" data-src ="./assets/button gifs/about_me_button.gif" data-click="./assets/button flat/about_me_button.png" id="button1"
-        onclick="mAboutMe()">
+        onclick="mAboutMe(),hidewindow1(),hidewindow2()">
 
         <img class="mbutton project" src ="./assets/button gifs/projects_button.gif" data-src ="./assets/button gifs/projects_button.gif" data-click="./assets/button flat/projects_button.png" id="button2"
-        onclick="mProject();">
+        onclick="mProject(),hidewindow1(),hidewindow3()" >
 
         <img class="mbutton shop" src ="./assets/button gifs/shop_button.gif" data-src ="./assets/button gifs/shop_button.gif" data-click="./assets/button flat/shop_button.png" id="button3">
-        <img class="mbutton contact" src ="./assets/button gifs/contact_me_button.gif" data-src ="./assets/button gifs/contact_me_button.gif" data-click="./assets/button flat/contact_me.png" id="button4" onclick="mContactMe();">
+        <img class="mbutton contact" src ="./assets/button gifs/contact_me_button.gif" data-src ="./assets/button gifs/contact_me_button.gif" data-click="./assets/button flat/contact_me.png" id="button4" onclick="mContactMe(),hidewindow2(),hidewindow3()">
 
     </div>
 
@@ -316,7 +316,7 @@ i do not understand anything-->
 
 
 
-    <div class="popup projectWindow" id="project_mpage">
+    <div class="mpopup projectWindow" id="project_mpage">
         <div><img class="projectborder" src = "./assets/projects window/projects_windowcomputer.png"></div>
         <div class ="closebutton"  onclick="mProject();"> <img src="./assets/projects window/projects_border_closebutton.png" id="projectsclosebutton"></div>
         <div class="peachspread"></div>
