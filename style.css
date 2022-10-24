@@ -756,10 +756,10 @@
 
 .projectWindow {
   display: none;
-  max-width: 27vw;
-  min-width: 27vw;
+  max-width: 31vw;
+  min-width: 31vw;
   position: absolute;
-  top: 27vw;
+  top: 19vw;
   left: 66vw;
   z-index: 10;
   image-rendering: pixelated;
