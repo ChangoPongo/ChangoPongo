@@ -183,7 +183,7 @@
 }
 .AboutMeWindow {
   left: -97%;
-  top: -95%;
+  top: -111%;
   position: absolute;
   width: 171%;
   z-index: 0;
@@ -194,7 +194,7 @@
 }
 .AboutMeButton {
   left: 48%;
-  top: -89%;
+  top: -103%;
   position: absolute;
   width: 14%;
   z-index: 1;
