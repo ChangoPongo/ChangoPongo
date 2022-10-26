@@ -201,11 +201,6 @@
   height: auto;
 }
 
-.AboutMeButton:active {
-  left: 47%;
-  top: -90%;
-}
-
 .AboutMeButton img {
   width: 100%;
 }
