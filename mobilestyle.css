@@ -544,10 +544,7 @@
   position: absolute;
   z-index: 99;
 }
-.closetornbutton:active {
-  top: -1%;
-  left: 92.1%;
-}
+
 .tornbottomborder {
   width: 100%;
   height: auto;
@@ -726,10 +723,6 @@
   left: 93%;
   position: absolute;
   z-index: 99;
-}
-.Starsbutton:active {
-  top: 1%;
-  left: 93.1%;
 }
 
 #FarPlains_mpage {
