@@ -794,6 +794,10 @@
   height: auto;
   position: relative;
   z-index: 11;
+  cursor: grab;
+}
+.projectborder:active{
+  cursor: grabbing;
 }
 
 .closebutton {
