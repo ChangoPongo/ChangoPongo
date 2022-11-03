@@ -432,4 +432,3 @@ function hidewindow3() {
     x.style.display = "none";
   }
 }
-
