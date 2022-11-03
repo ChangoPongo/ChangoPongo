@@ -44,7 +44,12 @@
   left: 39vh;
   z-index: 19;
   image-rendering: pixelated;
+  
 }
+.AboutMeWindow:active {
+  cursor: url(./assets/Cursors/grabbing.png),auto;
+ }
+ 
 .AboutMeContainer {
   width: 100%;
   height: auto;
@@ -56,10 +61,10 @@
   width: 100%;
   height: auto;
   z-index: 1;
-  cursor: grab;
+  cursor: url(./assets/Cursors/grab.png),auto;
 }
 .me:active {
-  cursor: grabbing;
+  cursor: url(./assets/Cursors/grabbing.png),auto;
 }
 
 .me1 {
@@ -72,20 +77,21 @@
   width: 143%;
   z-index: 0;
   height: auto;
+  cursor: url(./assets/Cursors/grab.png),auto;
 }
 .AboutMeWindow img {
   width: 80%;
 }
 .AboutMeButton {
-  left: 8%;
-  top: -32%;
+  left: 6%;
+  top: -31%;
   position: absolute;
-  width: 8%;
+  width: 9%;
   z-index: 1;
   height: auto;
 }
 .AboutMeButton:active {
-  left: 9%;
+  left: 7%;
   top: -31.5%;
 }
 
@@ -125,10 +131,10 @@
   width: 40%;
   height: auto;
   z-index: 1;
-  cursor: grab;
+ cursor: url(./assets/Cursors/grab.png),auto;
 }
 .metwo:active {
-  cursor: grabbing;
+ cursor: url(./assets/Cursors/grabbing.png),auto;
 }
 .me2 {
   width: 100%;
@@ -233,11 +239,11 @@
   image-rendering: pixelated;
   top: -2%;
   left: 0%;
-  cursor: grab;
+ cursor: url(./assets/Cursors/grab.png),auto;
   position: absolute;
 }
 .torntopborder:active{
-  cursor: grabbing;
+ cursor: url(./assets/Cursors/grabbing.png),auto;
 }
 .closetornbutton {
   width: 6%;
@@ -290,10 +296,10 @@
   top: -2%;
   left: 0%;
   position: absolute;
-  cursor: grab;
+ cursor: url(./assets/Cursors/grab.png),auto;
 }
 .NTKtopborder:active{
-  cursor: grabbing;
+ cursor: url(./assets/Cursors/grabbing.png),auto;
 }
 .NTKbutton {
   width: 6%;
@@ -345,10 +351,10 @@
   left: 0%;
   position: absolute;
   z-index: 10;
-  cursor: grab;
+ cursor: url(./assets/Cursors/grab.png),auto;
 }
 .IWTBEtopborder:active{
-  cursor: grabbing;
+ cursor: url(./assets/Cursors/grabbing.png),auto;
 }
 .IWTBEbutton {
   width: 5%;
@@ -426,10 +432,10 @@
   left: 0%;
   z-index: 98;
   position: absolute;
-  cursor: grab;
+ cursor: url(./assets/Cursors/grab.png),auto;
 }
 .Starstopborder:active{
-  cursor: grabbing;
+ cursor: url(./assets/Cursors/grabbing.png),auto;
 }
 .Starsbutton {
   width: 4.5%;
@@ -547,11 +553,11 @@
   top: -2%;
   left: 0%;
   z-index: 98;
-  cursor: grab;
+ cursor: url(./assets/Cursors/grab.png),auto;
   position: absolute;
 }
 .FarPlainstopborder:active{
-  cursor: grabbing;
+ cursor: url(./assets/Cursors/grabbing.png),auto;
 }
 .FarPlainsbutton {
   width: 4.5%;
@@ -653,7 +659,7 @@
   left: 0%;
   z-index: 98;
   position: absolute;
-  cursor: grab;
+ cursor: url(./assets/Cursors/grab.png),auto;
 }
 .HopesFearstopborder:active{
   cursor:grabbing
@@ -760,10 +766,10 @@
   left: 0%;
   z-index: 98;
   position: absolute;
-  cursor: grab;
+ cursor: url(./assets/Cursors/grab.png),auto;
 }
 .Starstopborder:active{
-  cursor: grabbing;
+ cursor: url(./assets/Cursors/grabbing.png),auto;
 }
 .StayHerebutton {
   width: 4.5%;
@@ -794,21 +800,22 @@
   height: auto;
   position: relative;
   z-index: 11;
-  cursor: grab;
+ cursor: url(./assets/Cursors/grab.png),auto;
 }
 .projectborder:active{
-  cursor: grabbing;
+ cursor: url(./assets/Cursors/grabbing.png),auto;
 }
 
 .closebutton {
   position: absolute;
-  width: 6%;
+  width: 7%;
   height: auto;
-  top: 76.3%;
+  top: 75.3%;
   left: 54%;
   right: 30%;
   z-index: 999;
 }
+
 
 .projectbackground {
   width: 64.4%;
@@ -1062,7 +1069,7 @@
   z-index: 999;
 }
 .closebutton:active {
-  top: 76.5%;
+  top: 75.6%;
   left: 54.2%;
 }
 
@@ -1125,6 +1132,7 @@
 }
 
 .body {
+  cursor: url(./assets/Cursors/defaultcursor.png),auto;
   background-color: #7bc8db;
   margin: 0;
   overflow: hidden;
@@ -1132,6 +1140,23 @@
   -webkit-user-select: none;
   user-select: none;
 }
+
+
+.body:active{
+  animation: cursor 400ms;
+}
+
+@keyframes cursor {
+  0% {cursor: url(./assets/Cursors/swinganimation/frame1.png), auto;}
+  25% {cursor: url(./assets/Cursors/swinganimation/frame2.png), auto;}
+  50% {cursor: url(./assets/Cursors/swinganimation/frame3.png), auto;}
+  75% {cursor: url(./assets/Cursors/swinganimation/frame4.png), auto;}
+  100% {cursor: url(./assets/Cursors/defaultcursor.png), auto;}
+ 
+}
+
+
+
 
 @font-face {
   font-family: "VT323";
@@ -1180,5 +1205,5 @@
   display: none;
 }
 .desktop{
-  display: block
+ display: block;
 }
