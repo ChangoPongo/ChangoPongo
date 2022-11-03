@@ -83,16 +83,17 @@
   width: 80%;
 }
 .AboutMeButton {
-  left: 6%;
-  top: -31%;
+  left: 3%;
+  top: -34%;
   position: absolute;
   width: 9%;
   z-index: 1;
   height: auto;
+  padding: 3%;
 }
 .AboutMeButton:active {
-  left: 7%;
-  top: -31.5%;
+  left: 2%;
+  top: -33.5%;
 }
 
 .AboutMeButton img {
@@ -153,13 +154,15 @@
 
 .ContactButton {
   position: absolute;
-  top: -12%;
-  width: 6%;
-  left: 124%;
-}
-.ContactButton:active {
   top: -11%;
-  left: 124.3%;
+  width: 6%;
+  left: 121%;
+  padding: 3%;
+}
+
+.ContactButton:active {
+  top: -10.5%;
+  left: 120.5%;
 }
 
 .ContactMeText {
@@ -249,14 +252,15 @@
   width: 6%;
   height: auto;
   image-rendering: pixelated;
-  top: -1.1%;
-  left: 92%;
+  top: -3.1%;
+  left: 89%;
   position: absolute;
   z-index: 99;
+  padding: 3%;
 }
 .closetornbutton:active {
-  top: -1%;
-  left: 92.1%;
+  top: -3.3%;
+  left: 88.7%;
 }
 .tornbottomborder {
   width: 100%;
@@ -305,14 +309,15 @@
   width: 6%;
   height: auto;
   image-rendering: pixelated;
-  top: -1.1%;
-  left: 92.5%;
+  top: -3.1%;
+  left: 89.5%;
   position: absolute;
   z-index: 99;
+  padding: 3%;
 }
 .NTKbutton:active {
-  top: -1.2%;
-  left: 92.6%;
+  top: -2.9%;
+  left: 89.2%;
 }
 .NTKbottomborder {
   width: 100%;
@@ -360,14 +365,15 @@
   width: 5%;
   height: auto;
   image-rendering: pixelated;
-  top: 2.9%;
-  left: 93.5%;
+  top: -2.1%;
+  left: 90.5%;
   position: absolute;
   z-index: 99;
+  padding: 3%;
 }
 .IWTBEbutton:active {
-  top: 3%;
-  left: 93.6%;
+  top: -1.9%;
+  left: 90.2%;
 }
 .IWTBEbottomborder {
   width: 100%;
@@ -441,14 +447,15 @@
   width: 4.5%;
   height: auto;
   image-rendering: pixelated;
-  top: -0.1%;
-  left: 94%;
+  top: -3.1%;
+  left: 91%;
   position: absolute;
   z-index: 99;
+  padding: 3%;
 }
 .Starsbutton:active {
-  top: 0%;
-  left: 94.1%;
+  top: -2.9%;
+  left: 90.8%;
 }
 
 #FarPlains_page {
@@ -563,14 +570,15 @@
   width: 4.5%;
   height: auto;
   image-rendering: pixelated;
-  top: -1.1%;
-  left: 94%;
+  top: -3.1%;
+  left: 88%;
   position: absolute;
   z-index: 99;
+  padding: 3%;
 }
-.FarPllainsbutton:active {
-  top: -0.9%;
-  left: 93.1%;
+.FarPlainsbutton:active {
+  top: -2.9%;
+  left: 87.5%;
 }
 
 #HopesFears_page {
@@ -668,14 +676,15 @@
   width: 4.5%;
   height: auto;
   image-rendering: pixelated;
-  top: -1.1%;
-  left: 93%;
+  top: -3.1%;
+  left: 88%;
   position: absolute;
   z-index: 99;
+  padding: 3%;
 }
 .HopesFearsbutton:active {
-  top: -0.9%;
-  left: 93.1%;
+  top: -2.9%;
+  left: 87.5%;
 }
 
 #StayHere_page {
@@ -775,14 +784,15 @@
   width: 4.5%;
   height: auto;
   image-rendering: pixelated;
-  top: -1.1%;
-  left: 93%;
+  top: -3.1%;
+  left: 88%;
   position: absolute;
   z-index: 99;
+  padding: 3%;
 }
 .StayHerebutton:active {
-  top: -0.9%;
-  left: 93.1%;
+  top: -2.9%;
+  left: 87.5%;
 }
 
 .projectWindow {
@@ -810,10 +820,11 @@
   position: absolute;
   width: 7%;
   height: auto;
-  top: 75.3%;
-  left: 54%;
+  top: 72.3%;
+  left: 51%;
   right: 30%;
   z-index: 999;
+  padding: 3%;
 }
 
 
@@ -1069,11 +1080,18 @@
   z-index: 999;
 }
 .closebutton:active {
-  top: 75.6%;
-  left: 54.2%;
+  top:73.3%;
+  left: 50%;
 }
 
 .island img {
+  position: static;
+  width: 100%;
+  height: auto;
+  image-rendering: pixelated;
+}
+
+.islandnight img {
   position: static;
   width: 100%;
   height: auto;
@@ -1132,7 +1150,7 @@
 }
 
 .body {
-  cursor: url(./assets/Cursors/defaultcursor.png),auto;
+  cursor: url(./assets/Cursors/defaultcursor.png) 15 15, auto;
   background-color: #7bc8db;
   margin: 0;
   overflow: hidden;
@@ -1154,8 +1172,6 @@
   100% {cursor: url(./assets/Cursors/defaultcursor.png), auto;}
  
 }
-
-
 
 
 @font-face {
