@@ -234,7 +234,7 @@
   width: 100%;
   height: auto;
 
-  image-rendering: crisp-edges;
+  image-rendering: auto;
 }
 .torntopborder {
   width: 100%;
@@ -291,7 +291,7 @@
 .NTKfull {
   width: 100%;
   height: auto;
-  image-rendering: crisp-edges;
+  image-rendering: auto;
 }
 .NTKtopborder {
   width: 100%;
@@ -414,7 +414,7 @@
 .fullimageStarsnot {
   width: 100%;
   height: auto;
-  image-rendering: crisp-edges;
+  image-rendering: auto;
   z-index: 0;
   margin: 0;
   padding: 0%;
@@ -423,7 +423,7 @@
 .Starsfull {
   width: 100%;
   height: auto;
-  image-rendering: crisp-edges;
+  image-rendering: auto;
   z-index: 0;
   margin: 0;
   padding: 0%;
@@ -486,7 +486,7 @@
 .fullimagePlains1 {
   width: 100%;
   height: auto;
-  image-rendering: crisp-edges;
+  image-rendering: auto;
   z-index: 0;
   margin: 0;
   padding: 0%;
@@ -494,7 +494,7 @@
 .farawayplains1 {
   width: 100%;
   height: auto;
-  image-rendering: crisp-edges;
+  image-rendering: auto;
   z-index: 0;
   margin: 0;
   padding: 0%;
@@ -503,7 +503,7 @@
 .fullimagePlains2 {
   width: 100%;
   height: auto;
-  image-rendering: crisp-edges;
+  image-rendering: auto;
   z-index: 0;
   margin: 0;
   padding: 0%;
@@ -511,7 +511,7 @@
 .farawayplains2 {
   width: 100%;
   height: auto;
-  image-rendering: crisp-edges;
+  image-rendering: auto;
   z-index: 0;
   margin: 0;
   padding: 0%;
@@ -520,7 +520,7 @@
 .fullimagePlains3 {
   width: 100%;
   height: auto;
-  image-rendering: crisp-edges;
+  image-rendering: auto;
   z-index: 0;
   margin: 0;
   padding: 0%;
@@ -528,7 +528,7 @@
 .farawayplains3 {
   width: 100%;
   height: auto;
-  image-rendering: crisp-edges;
+  image-rendering: auto;
   z-index: 0;
   margin: 0;
   padding: 0%;
@@ -609,7 +609,7 @@
 .Hope {
   width: 100%;
   height: auto;
-  image-rendering: crisp-edges;
+  image-rendering: auto;
   z-index: 0;
   margin: 0;
   padding: 0%;
@@ -617,7 +617,7 @@
 .fullHope {
   width: 100%;
   height: auto;
-  image-rendering: crisp-edges;
+  image-rendering: auto;
   z-index: 0;
   margin: 0;
   padding: 0%;
@@ -626,7 +626,7 @@
 .Fear {
   width: 100%;
   height: auto;
-  image-rendering: crisp-edges;
+  image-rendering: auto;
   z-index: 0;
   margin: 0;
   padding: 0%;
@@ -634,7 +634,7 @@
 .fullFear {
   width: 100%;
   height: auto;
-  image-rendering: crisp-edges;
+  image-rendering: auto;
   z-index: 0;
   margin: 0;
   padding: 0%;
@@ -715,7 +715,7 @@
 .Inside {
   width: 100%;
   height: auto;
-  image-rendering: crisp-edges;
+  image-rendering: auto;
   z-index: 0;
   margin: 0;
   padding: 0%;
@@ -723,7 +723,7 @@
 .fullInside {
   width: 100%;
   height: auto;
-  image-rendering: crisp-edges;
+  image-rendering: auto;
   z-index: 0;
   margin: 0;
   padding: 0%;
@@ -732,7 +732,7 @@
 .Outside {
   width: 100%;
   height: auto;
-  image-rendering: crisp-edges;
+  image-rendering: auto;
   z-index: 0;
   margin: 0;
   padding: 0%;
@@ -740,12 +740,12 @@
 .fullOutside {
   width: 100%;
   height: auto;
-  image-rendering: crisp-edges;
+  image-rendering: auto;
 }
 .fullOutside img {
   width: 100%;
   height: auto;
-  image-rendering: crisp-edges;
+  image-rendering: auto;
 }
 
 .StayHereback {
