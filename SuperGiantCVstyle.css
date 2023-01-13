@@ -1,0 +1,32 @@
+.body {
+    cursor: url(./assets/Cursors/defaultcursor.png) 15 15, auto;
+    background-color: #555555;
+    margin: 0;
+    overflow: hidden;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    
+  }
+  .body:active{
+    animation: cursor 400ms;
+  }
+  
+  @keyframes cursor {
+    0% {cursor: url(./assets/Cursors/swinganimation/frame1.png), auto;}
+    25% {cursor: url(./assets/Cursors/swinganimation/frame2.png), auto;}
+    50% {cursor: url(./assets/Cursors/swinganimation/frame3.png), auto;}
+    75% {cursor: url(./assets/Cursors/swinganimation/frame4.png), auto;}
+    100% {cursor: url(./assets/Cursors/defaultcursor.png), auto;}
+   
+  }
+  
+
+  #SuperGiantCV {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    
+}
